@@ -1,0 +1,14 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.body-content {
+    padding-top: 52px;
+}
+.scrollable-column {
+    max-height: calc(100vh - 52px);
+    overflow-y: auto;
+}

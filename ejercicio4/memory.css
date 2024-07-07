@@ -43,3 +43,36 @@ img {
     max-height: 100%;
     object-fit: contain;
 }
+
+.modal {
+    display: none;
+}
+
+.modal.is-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-background {
+    background-color: rgba(10, 10, 10, 0.86);
+}
+
+.modal-content {
+    position: relative;
+    background: white;
+    padding: 2rem;
+    border-radius: 6px;
+    max-width: 500px;
+    width: 90%;
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
